@@ -20,10 +20,26 @@ namespace MartingaleTheorySim
             return rouletteNumber;
         }
 
-        public void GetRouletteNumber()
+        public int GetRouletteNumber()
         {
             rouletteNumber = SpinRoulette();
-            Console.WriteLine(rouletteNumber);
+            return rouletteNumber;
+        }
+
+        public void BetEven()
+        {
+            rouletteNumber = GetRouletteNumber();
+
+            if (rouletteNumber % 2 == 0)
+            {
+                
+            }
+
+        }
+
+        public void BetOdd()
+        {
+
         }
     }
 }
