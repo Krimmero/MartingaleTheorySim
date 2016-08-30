@@ -33,6 +33,11 @@ namespace MartingaleTheorySim
             if (rouletteNumber % 2 == 0)
             {
                 
+                
+            }
+            else
+            {
+                
             }
 
         }

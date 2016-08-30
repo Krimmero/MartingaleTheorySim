@@ -12,9 +12,8 @@ namespace MartingaleTheorySim
     {
         static void Main(string[] args)
         {
-            Croupier croupier = new Croupier();
-            croupier.GetRouletteNumber();
-            Console.ReadLine();
+            PlayGame game = new PlayGame();
+            game.StartGame();
         }
     }
 }
